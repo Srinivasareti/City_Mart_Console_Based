@@ -1,4 +1,4 @@
-CityMart
+**CityMart Console Based Java Project**
 
 CityMart is a Java console-based application designed to simulate an online shopping platform. It provides essential functionalities such as user login, cart management, coupon application, payment processing, and rating features, ensuring a comprehensive shopping experience.
 
