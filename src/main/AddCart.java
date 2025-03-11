@@ -28,12 +28,7 @@ public class AddCart {
 		System.out.println();
 		System.out.println();
 		System.out.println(C.charteuse + "------------------CART------------------" + C.reset);
-		// for (HashMap.Entry<String, Integer> entry : map.entrySet())
-		// {
-		// System.out.println("Item: "+entry.getKey()+" Price: " + entry.getValue());
-		// bal=(double)bal+entry.getValue();
-
-		// }
+		
 		for (HashMap.Entry<String, Integer> entry : map.entrySet()) {
 			// Use String.format to align text properly
 			System.out.printf(
@@ -79,31 +74,7 @@ public class AddCart {
 		System.out.println(C.cyan + "Enter 1.Remove   2.Bill    3.Menu" + C.reset);
 		int nb = sc.nextInt();
 		if (nb == 1) {
-			// System.out.println("Enter remove item: ");
-			// String im=sc.next();
-			// map.remove(im);
-			// System.out.println("after remove items cart:");
-			// for (HashMap.Entry<String, Integer> entry : map.entrySet())
-			// {
-			// System.out.println("Item: "+entry.getKey()+" "+" Price: " +
-			// entry.getValue());
-			// bal1=(double)bal1+entry.getValue();
-			// }
-			// System.out.println(C.cyan+"Enter 1.Menu 2.Bill"+C.reset);
-			// int m1=sc.nextInt();
-			// if(m1==1)
-			// {
-			// Cart1 c1=new Cart1();
-			// c1.cart();
-			// }
-			// else
-			// {
-			// AddCart ac=new AddCart();
-			// ac.bill(bal1);
-			// }
-
-			// AddCart r=new AddCart();
-			// r.removeItams(m1);
+			
 			AddCart soj = new AddCart();
 			soj.mt(map);
 			System.out.println(C.cyan + "Enter 1.Menu   2.Bill" + C.reset);
